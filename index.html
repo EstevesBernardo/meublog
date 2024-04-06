@@ -1,0 +1,31 @@
+<script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+<h1>
+	Bernardo
+</h1>
+
+<div>-Oi, tudo bem? eu sou o  Bernardo. </div>
+<div>Pedro eu quero  te pedir um favor!</div>
+<div>joga bola comigo? sim ber aceito então vamos</div>
+
+<br>
+<div id="autor">
+	Bernardo Esteves
+</div>
+ 
+<button style="background:green;color:white;border:none;border-radius: 10px;padding:5px 10px;" onclick="mostrar_altor()">
+	Clicar
+</button>
+
+<script>
+	let status = true
+	mostrar_altor()
+	function mostrar_altor() {
+		if(status){
+			status = false
+			$("#autor").show()
+		} else {
+			status = true
+			$("#autor").hide()
+		}
+	}
+</script>
